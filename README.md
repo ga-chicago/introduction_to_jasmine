@@ -16,10 +16,31 @@
 #### Testing Code
 
 ```javascript
-function doesImgHaveSrc(imgObj) {
+/**
+ * Verifies that an image has a src attribute.
+ * @test
+ */
+function doesImgHaveSrcTest(imgObj) {
   var assert = imgObj;
   var expected = true;
   if (assert.hasOwnProperty('src') == expected) {
+    return true;
+  }
+  return false;
+}
+```
+
+#### Testing Pi
+
+```javascript
+/**
+ * Verifies that pi = '3.14'
+ * @test
+ */
+function verifyPiTest(pi) {
+  var assert = pi;
+  var expected = '3.14';
+  if (assert.toString().substring(0,4) == expected) {
     return true;
   }
   return false;
