@@ -16,13 +16,12 @@
 #### Testing Code
 
 ```javascript
-
 function doesImgHaveSrc(imgObj) {
   var assert = imgObj;
-  if (assert.hasOwnProperty('src') {
+  var expected = true;
+  if (assert.hasOwnProperty('src') == expected) {
     return true;
   }
   return false;
 }
-
 ```
