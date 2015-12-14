@@ -7,7 +7,7 @@
   * Implement Jasmine with a Node application
   * Create suites of tests and individual tests
 
-### We ASSERT something that should match an EXPECTED value
+#### We ASSERT something that should match an EXPECTED value
 
   * Asserts are what our actual value we get.
   * They are what fails a test.
