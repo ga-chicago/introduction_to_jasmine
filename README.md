@@ -1,15 +1,31 @@
-## Introduction to Jasmine (and how to test your code)
+## Introduction to Test Driven Development
 
 #### Learning Objectives
 
-  * Understand why we should test our code with specs
-  * Describe what assertions and expectations are
-  * Implement Jasmine with a Node application
-  * Create suites of tests and individual tests
+ * Understand why we should test our code with specs
+ * Describe what assertions and expectations are
+ * Manually write a test for a DOM element
 
 #### We ASSERT something that should match an EXPECTED value
 
-  * Asserts are what our actual value we get.
-  * They are what fails a test.
-  * We *EXPECT* that an *ASSERT* matches our *EXPECTED* value
-  * Let's visualize this... together.
+ * Asserts are what our actual value we get.
+ * They are what fails a test.
+ * We *EXPECT* that an *ASSERT* matches our *EXPECTED* value
+ * Let's visualize this... together.
+
+#### Testing Code
+
+```javascript
+
+function doesImgHaveSrc(imgObj) {
+
+ var assert = imgObj;
+ 
+ if (assert.hasOwnProperty('src') {
+   return true;
+ }
+ return false;
+
+}
+
+```
