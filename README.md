@@ -18,14 +18,11 @@
 ```javascript
 
 function doesImgHaveSrc(imgObj) {
-
- var assert = imgObj;
- 
- if (assert.hasOwnProperty('src') {
-   return true;
- }
- return false;
-
+  var assert = imgObj;
+  if (assert.hasOwnProperty('src') {
+    return true;
+  }
+  return false;
 }
 
 ```
